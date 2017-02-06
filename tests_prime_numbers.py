@@ -28,3 +28,14 @@ class TestPrimeNumbers(unittest.TestCase):
     def test_input_is_set(self):
         self.assertEqual('Invalid input type', prime_numbers(set()))
 
+    def test_output_is_a_list(self):
+        self.assertEqual(list, type(prime_numbers(3)))
+
+    def test_correct_output_for_input_5(self):
+        self.assertEqual([2,3,5], prime_numbers(5))
+
+    def test_output_not_beyond_the_range_if_n_is_a_prime_number(self):
+        self.assertTrue(prime_numbers(5)[-1] <= 5)
+
+    def test_output_not_beyond_the_range_if_n_is_not_a_prime_number(self):
+        self.assertTrue(prime_numbers(8)[-1] <= 8)
