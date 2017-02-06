@@ -11,4 +11,19 @@ def prime_numbers(n):
         return "Invalid input type"
     if n < 0:
         return 'Invalid input, negative number entered'
-
+    prime_nos_list = []
+    for i in range(n + 1):
+        is_prime = True
+        divisor = 2
+        while divisor < i:
+            if i % divisor == 0:
+                is_prime = False
+                divisor += 1
+            else:
+                divisor += 1
+        if is_prime and not i == 0 and not i == 1:
+            prime_nos_list.append(i)
+        else:
+            is_prime = True
+    return prime_nos_list
+        
