@@ -1,4 +1,4 @@
-# day0
+# day0_bootcamp
 bootcamp week1 day 0 python exercise
 
 #Asymptotic analysis of the function prime_numbers()
