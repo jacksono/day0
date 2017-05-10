@@ -8,3 +8,9 @@ script:
   - python tests.py
 notifications:
     slack: andela-ps-jan17:XNWSyH13zkwDNkqp3pRdw2Wv
+install:
+  - ./travis-tool.sh github_package jimhester/covr
+ 
+ 
+after_success:
+  - Rscript -e 'covr::coveralls()'
