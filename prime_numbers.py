@@ -11,7 +11,7 @@ def prime_numbers(n):
         return "Invalid input type"
     if n < 0:
         return 'Invalid input, negative number entered'
-    prime_nos_list = []
+    prime_nos_lis = []
     for i in range(n + 1):
         is_prime = True
         divisor = 2
@@ -22,8 +22,7 @@ def prime_numbers(n):
             else:
                 divisor += 1
         if is_prime and not i == 0 and not i == 1:
-            prime_nos_list.append(i)
+            prime_nos_lis.append(i)
         else:
             is_prime = True
-    return prime_nos_list
-        
+    return prime_nos_lis
