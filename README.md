@@ -1,6 +1,7 @@
 
 [![Build Status](https://travis-ci.org/jacksono/day0.svg?branch=master)](https://travis-ci.org/jacksono/day0)
 [![Code Issues](https://www.quantifiedcode.com/api/v1/project/642fe647d4214de89a79683da184edf7/badge.svg)](https://www.quantifiedcode.com/app/project/642fe647d4214de89a79683da184edf7)
+[![Coverage Status](https://coveralls.io/repos/github/jacksono/day0/badge.svg?branch=master)](https://coveralls.io/github/jacksono/day0?branch=master)
 # day0_bootcamp
 bootcamp week1 day 0 python exercise
 
