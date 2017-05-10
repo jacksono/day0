@@ -1,3 +1,5 @@
+
+[![Build Status](https://travis-ci.org/jacksono/day0.svg?branch=master)](https://travis-ci.org/jacksono/day0)
 # day0_bootcamp
 bootcamp week1 day 0 python exercise
 
