@@ -12,7 +12,7 @@ for i in range(n + 1):
                 is_prime = False
                 divisor += 1
 ```
-Since a one loop has a result of **O(n)** - linear time complexity, the nesting with one
-loop makes the resul to be **O(n2)**- quadratic time complexity
+Since one loop has a result of **O(n)** - linear time complexity, the nesting with one
+loop makes the result to be **O(n2)**- quadratic time complexity
 
 And that is the asymptotic analysis for that function
