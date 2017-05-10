@@ -6,3 +6,5 @@ install:
   - pip install -r requirements.txt
 script:
   - python tests.py
+ notifications:
+    slack: andela-ps-jan17:XNWSyH13zkwDNkqp3pRdw2Wv
