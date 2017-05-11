@@ -4,8 +4,12 @@ python:
 cache: pip
 install:
   - pip install -r requirements.txt
+  - pip install coveralls
 script:
   - python tests.py
+  - coverage run --source=moscowdjango,meetup manage.py test
+after_success:
+  coveralls
 notifications:
     slack: andela-ps-jan17:XNWSyH13zkwDNkqp3pRdw2Wv
 
