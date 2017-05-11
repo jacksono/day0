@@ -16,7 +16,7 @@ for i in range(n + 1):
                 is_prime = False
                 divisor += 1
 ```
-Since one loop has a result of **O(n)** - linear time complexity, the nesting with one
+Since one(1) loop has a result of **O(n)** - linear time complexity, the nesting with one
 loop makes the result to be **O(n2)**- quadratic time complexity
 
 And that is the asymptotic analysis for that PRIME NUMBERS function
